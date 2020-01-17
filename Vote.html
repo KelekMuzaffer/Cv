@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="HtmlA" lang="en">
+<head>
+    <link href="style.css" rel="Stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Vote</title>
+</head>
+<body>
+<div id="menu">
+    <ul id="ongletsA">
+        <li ><a href="AccueilMuza.html">Accueil</a></li>
+        <li> <a href="Hobby.html">Hobby</a></li>
+        <li><a href="Vote.html">Vote Pour ton Ballon d'or</a></li>
+        <li> <a href="Prix%20Puskas%202019.html">Prix Puskas 2019</a></li>
+    </ul>
+</div>
+    <h1  class="TitreA1"> Vote pour votre podium</h1>
+<form action="https://httpbin.org/post" method="post">
+    <div>
+       <fieldset>
+           <legend>1 ere place</legend>
+           <label for="radio1">Virgil Van Dijk</label>
+           <input type="radio" id="radio1" name="1ere_place" value="Virgil Van Dijk" >
+           <label for="radio2">Lionel Messi</label>
+           <input type="radio" id="radio2" name="1ere_place" value="Lionel Messi" >
+           <label for="radio3">Cristiano Ronaldo</label>
+           <input type="radio"  id="radio3" name="1ere_place" value="Cristiano Ronaldo" >
+       </fieldset>
+       <fieldset>
+           <legend>2 ieme place</legend>
+           <label for="radio4">Virgil Van Dijk</label>
+           <input type="radio" id="radio4" name="2ieme_place" value="Virgil Van Dijk" >
+           <label for="radio5">Lionel Messi</label>
+           <input type="radio" id="radio5" name="2ieme_place" value="Lionel Messi" >
+           <label for="radio6">Cristiano Ronaldo</label>
+           <input type="radio"  id="radio6" name="2ieme_place" value="Cristiano Ronaldo" >
+       </fieldset>
+        <fieldset>
+            <legend>3 ieme place</legend>
+            <label for="radio7">Virgil Van Dijk</label>
+            <input type="radio" id="radio7" name="3ieme_place" value="Virgil Van Dijk" >
+            <label for="radio8">Lionel Messi</label>
+            <input type="radio" id="radio8" name="3ieme_place" value="Lionel Messi" >
+            <label for="radio9">Cristiano Ronaldo</label>
+            <input type="radio"  id="radio9" name="3ieme_place" value="Cristiano Ronaldo" >
+        </fieldset>
+   <fieldset>
+       <legend>Profil du votant</legend>
+       <label for="sexe">
+           <span>Sexe</span>
+           <select id="sexe" name="sexe">
+               <option hidden>Choisir</option>
+               <option value="Femme">Femme</option>
+               <option value="Homme">Homme</option>
+           </select>
+       </label>
+       <div> <label for="name">Nom *:</label>
+           <input type="text" id="name" name="user_name" required>
+       </div>
+       <div> <label for="Surname">Prénom *:</label>
+           <input type="text" id="Surname" name="user_Surname" required>
+       </div>
+       <div>
+           <label for="mail">E-mail *:</label>
+           <input type="email" id="mail" name="user_mail" title="email" required>
+       </div>
+       <div class="Button">
+           <button type="Submit">Voter</button>
+       </div>
+   </fieldset></div></form>
+</body>
+</html>

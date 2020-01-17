@@ -1,0 +1,66 @@
+.HtmlA {
+    font-size: 20px;
+    background-color: darkred;
+    color: White;
+}
+.TitreA { font-size: 40px;
+    text-decoration: underline;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: center;
+    color: gold;
+}
+.TitreA1 {
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    border: 10px solid black;
+    font-size: 40px;
+    text-decoration: underline;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: center;
+    color: gold;
+}
+.ImageA {
+    float: left;
+    width: 11vw;
+}
+.IframeA {
+    border-image: linear-gradient(gold,white) 27;
+}
+.TableMuzaA {
+    border:2px solid Black;
+    width : 1000px;
+}
+.TablegoldA {border:1px solid black;
+    color:gold;}
+.TableWhiteA {
+    vertical-align: middle;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    width:50%;
+}
+.pageA {
+         color: white;
+     ;
+}
+#ongletsA
+{
+    display: table;
+    padding: 8px 8px 17px 8px;
+    transition: all .3s .1s;
+}
+#ongletsA li
+{
+    display: inline-block;
+   float : left;
+    height : 21px;
+    padding: 8px;
+}
+#ongletsA a
+{
+    color : white;
+    text-decoration : none;
+    padding : 4px;
+}
